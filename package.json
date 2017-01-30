@@ -1,8 +1,8 @@
 {
-  "name": "jsftp",
-  "id": "jsftp",
+  "name": "jsftp-mlsd",
+  "id": "jsftp-mlsd",
   "version": "1.5.5",
-  "description": "A sane FTP client implementation for NodeJS",
+  "description": "jsftp fork with simple mlsd command.",
   "keywords": [
     "ftp",
     "protocol",
@@ -12,13 +12,13 @@
     "async"
   ],
   "author": "Sergi Mansilla <sergi.mansilla@gmail.com> (http://sergimansilla.com)",
-  "homepage": "https://github.com/sergi/jsftp",
+  "homepage": "https://github.com/razakal/jsftp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sergi/jsftp.git"
+    "url": "https://github.com/razakal/jsftp.git"
   },
   "bugs": {
-    "url": "https://github.com/sergi/jsftp/issues"
+    "url": "https://github.com/razakal/jsftp/issues"
   },
   "dependencies": {
     "debug": "^2.2.0",
@@ -26,7 +26,8 @@
     "once": "^1.3.3",
     "parse-listing": "^1.1.3",
     "stream-combiner": "^0.2.2",
-    "unorm": "^1.4.1"
+    "unorm": "^1.4.1",
+    "moment": "^2.14.x"
   },
   "devDependencies": {
     "concat-stream": "^1.5.0",
